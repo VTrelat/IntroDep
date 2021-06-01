@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 void print_tableau(int t[], int size){
+    printf("{");
     for(int i=0; i<size; i++){
         printf("%d ", *(t+i));
     }
+    printf("}\n");
 }
 
 int main(){
